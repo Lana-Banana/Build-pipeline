@@ -1,5 +1,11 @@
 pipeline {
   agent any
+    stages {
+    stage('Webpack Build') {
+      steps {
+        echo 'Build React code for Frontend '
+      }
+    }
   stages {
     stage('Gradle Build') {
       steps {
