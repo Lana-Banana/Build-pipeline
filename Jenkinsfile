@@ -6,7 +6,6 @@ pipeline {
         echo 'Build React code for Frontend '
       }
     }
-  stages {
     stage('Gradle Build') {
       steps {
         echo 'Execute build.gradle '
